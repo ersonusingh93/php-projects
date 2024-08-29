@@ -1,0 +1,143 @@
+<?php 
+
+// $data = array("PHP", "Perl", "Mysql", "Ruby and Rails");
+
+// print_r($data);
+
+// foreach($data as $n){
+//     echo $n." ";
+// } 
+
+// $data = array("PHP", "Perl", "Python");
+// $values = array(32, 33, 34);
+
+// $result = array_combine($data, $values);
+
+// foreach($result as $key => $values){
+//     echo "[$key => $values]";
+// }
+
+
+// $data = array(2,4,6,9,8,7,8,4,5,7);
+
+// $result = array_chunk($data, 2);
+
+// echo "Array Size is : ";
+
+// foreach($result as $ch){
+//     echo "[".implode(", ", $ch)."]";
+// }
+
+// $name = "Muktak";
+// $age = 25;
+// $result = compact("name", "age");
+
+// echo "Details is : ";
+
+// foreach($result as $key => $values){
+//     echo "[$key => $values]";
+// }
+
+// $data = range(2,15,2);
+
+// echo "Data is : ";
+
+// foreach($data as $ev){
+//     echo $ev." ";
+// }
+
+// $data = array("Sweta", "Patel", 26);
+
+// list($first_name, $last_name, $age) = $data;
+
+// echo "First Name : $first_name"." ";
+
+// echo "Last Name : $last_name"." ";
+
+// echo "Age : $age years";
+
+// $data = array_fill(0,3,"Hello");
+
+// echo "Dats is : ";
+
+// foreach($data as $n){
+//     echo "$n" . " ";
+// }
+
+
+// $keys =  array("fname","lname","age");
+
+
+// $data_insert = array_fill_keys($keys , "PHP");
+
+// echo "Data inserted is : ";
+
+// foreach($data_insert as $key => $values){
+//     echo "[$key => $values]";
+// }
+
+// $data = array("Sweta", "Muktak", "Pushpak", "Ram");
+
+// $data_flipped = array_flip($data);
+
+// print_r($data).PHP_EOL;
+
+// echo "Flipped Array is : ";
+
+// print_r($data_flipped);
+
+
+// $data = array("Sweta", "Muktak", "Pushpak", "Ram", "Raj", "Lokesh");
+
+// $data_slice = array_slice($data, 2,5);
+
+// echo "Array is : ".PHP_EOL;
+
+// foreach($data_slice as $sl){
+//     echo $sl." ";
+// }
+
+// $ages = array(25,15,65,45,85,87,15);
+
+// $myage = array(15,24,18,19,17,25,45);
+
+// $data_diff =  array_diff($ages, $myage);
+
+// echo "Array Difference is : ".PHP_EOL;
+
+// foreach($data_diff as $val){
+//     echo $val. " ";
+// }
+
+
+/*
+implode : 
+
+Explode : 
+
+isset : 
+
+unset : 
+
+global variables : 
+
+
+compact() - the compact() function creates an array by usingh variables as keys and their values as the corresponding array values.
+
+range() - range() generates an array containing a start and end value, with optional step increment.
+
+
+list() - list() function is used to assign values to a list variables from an array. It's often used in conjunctions with functions like explode() or  to extract preg_match() values from arrays easily.
+
+array_fill() - creates an array with a specified number of elements each having the same value;
+
+array_fill_keys() - Fill an array with values, specifying keys
+
+array_flip() - array_flip() flips the keys and the value of array, creating a new array where the original values becomes keys, and the original keys becomes values.
+
+array_slice() - array_slice() extracts a portion of an array based on a starting index and length , creating a new array containing the selected elements.
+
+array_diff()  - calculates the difference between two or more arrays and return an array containing the values that are present in the first_array but not in other array.
+*/
+
+?>
