@@ -1,0 +1,142 @@
+<?php 
+
+/*
+
+arrays and their methods
+array_map
+array_filter
+array_reduce
+String and their methods
+Function : template - perform particular task
+user defined function
+predefined function
+
+*/
+
+// function displayData(){
+//     echo "This is function";
+// }
+
+
+// displayData(); //function calling
+
+//parametrized function
+// function welcomeData($name, $age){
+//     echo "Welcome $name your age is $age years";
+
+// }
+
+// welcomeData("Ram", 25);
+
+// function displayData($name, $age, $salary){
+//     echo "Welcome $name your age is $age years with salary $salary";
+// }
+
+// displayData("Ram", 25, 25000);
+
+
+// function displayData($name="Rakesh", $age=20, $salary=10000){
+//     echo "Welcome $name your age is $age years with salary $salary";
+// }
+
+// displayData("Ram", 25, 25000);
+
+//default parametrized function
+// function displayData($name="Rakesh", $age=20, $salary=10000){
+//     echo "Welcome $name your age is $age years with salary $salary";
+// }
+
+// displayData();
+
+// function myData($name, $age){
+//     return $name ."  ". $age;
+// }
+
+// $data = myData("Raj", 24);
+
+// echo $data;
+
+
+//rest and spred parameters
+
+// function myData(...$data){
+//     $total = 0;
+//     for($x=0; $x< count($data); $x++){
+//         $total = $total + $data[$x];
+//     }
+
+//     return $total;
+// }
+
+// echo myData(25,25).PHP_EOL;
+
+// echo myData(25,25,25).PHP_EOL;
+
+// echo myData(25,25,25,25).PHP_EOL;
+
+// $ages = [2,4,5,6];
+// $sal = [250,150,650];
+
+// $res = [...$ages, ...$sal];
+
+// print_r($res);
+
+//anonymous function
+// $addition = function($x, $y){
+//     return $x + $y;
+// };
+
+
+// echo $addition(25,25);
+
+//arrow function in php : 
+
+// $addition = fn($x, $y) => $x + $y;
+
+// echo $addition(25,25);
+
+
+
+//anonymous function
+//arrow function
+//default function
+//parametrized function
+//default parametrized function
+
+// $result = function($x, $y, $z){
+//     return $x+$y+$z;
+// };
+
+// echo $result(50,50,50);
+
+//arrow function
+// $add = fn($x, $y, $z) => $x+$y+$z;
+
+// echo $add(25,25,25);
+
+//parametrized function
+// function additionData($x,$y, $z){
+//     $add = $x+$y+$z;
+
+//     echo "Addition of two numbers are : $add";
+// }
+
+// additionData(25,24,15);
+
+
+//default parametrized function
+// function additionData($x=0 ,$y=0, $z=0){
+//     $add = $x+$y+$z;
+
+//     echo "Addition of two numbers are : $add";
+// }
+
+// additionData();
+?>
+
+1) Write a menu driven program to perform the following operations on an associative array: 
+a) Display the elements of an array along with the keys. 
+b) Display the size of an array  
+c) Delete an element from an array from the given key/index. 
+d) Reverse the order of each element’s key-value pair [Hint: use array_flip()] 
+e) Traverse the elements in an array in random order [[Hint: use shuffle()]. 
